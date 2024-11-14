@@ -11,6 +11,9 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
+    manifest {
+        attributes ["Main-Class"] = "ru.vtb.suis.hellochuckberry.HelloChuckBerryApplication"
+    }
 }
 
 repositories {
